@@ -1,0 +1,75 @@
+/* General page styling */
+.App {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.quiz-question {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.quiz-question p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+label {
+  display: block;
+  margin: 10px 0;
+  font-size: 16px; /* Adjusting the font size for visibility */
+  color: #333; /* Darker color for better contrast */
+  cursor: pointer; /* Adding pointer for better user experience */
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+p {
+  font-size: 16px;
+  color: #333;
+}
+.quiz-result{
+  background-color: white;
+}
